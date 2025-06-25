@@ -39,8 +39,11 @@ Various classification models were tested. AdaBoostClassifier showed the best ac
 ## Results 
 | Model    | Accuracy Value |
 | -------- | -----          |
-| Accuracy | XX %  |
-| F1 Score | XX    |
-| ROC AUC  | XX    |
-
+| LogisticRegression | 0.8205  |
+| RandomForestClassifier | 0.8269    |
+| AdaBoostClassifier  | 0.8494     |
+| GaussianProcessClassifier  | 0.8429     |
+| KNeighborsClassifier  | 0.8141     |
+| SVC  | 0.8365     |
+| DecisionTreeClassifier  |  0.8365    |
 
