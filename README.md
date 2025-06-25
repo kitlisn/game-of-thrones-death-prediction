@@ -52,7 +52,6 @@ Accuracy on test data: 0.8175.
 
 ## Data
 The dataset was provided as part of an educational course and is not included in this repository due to copyright restrictions.
-If you're taking DeepLearningSchool course (DLS), you will have access to the data through the course platform.
 
 
 ## Possible Improvements
