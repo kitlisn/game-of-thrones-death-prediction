@@ -14,10 +14,12 @@ The project includes:
 
 ## Preview
 
-Distribution of the target variable
+Distribution of the target variable (train data)
+
 ![image](https://github.com/user-attachments/assets/465bd4b3-2fe4-4c70-84c9-3ea0668ed936)
 
 Correlation heatmap for selected features and target variable
+
 ![image](https://github.com/user-attachments/assets/b9f23ce0-9b88-422e-a810-ff3aa5340da8)
 
 
@@ -34,18 +36,11 @@ Correlation heatmap for selected features and target variable
 
 Various classification models were tested. AdaBoostClassifier showed the best accuracy.
 
-## Project structure
-game-of-thrones-death-prediction/
-│
-├── notebooks/
-│ └── game_of_thrones_prediction.ipynb #analysis notebook
-│
-├── src/
-│ └── model.py
-│
-├── data/ #data (not provided due to restrictions)
-│
-├── requirements.txt #project dependencies
-├── .gitignore
-└── README.md
+## Results 
+| Model    | Accuracy Value |
+| -------- | -----          |
+| Accuracy | XX %  |
+| F1 Score | XX    |
+| ROC AUC  | XX    |
+
 
