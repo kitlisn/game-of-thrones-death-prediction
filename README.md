@@ -65,8 +65,8 @@ If you're taking DeepLearningSchool course (DLS), you will have access to the da
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/game-of-thrones-death-prediction.git
-cd game-of-thrones-death-prediction
+git clone https://github.com/kitlisn/game-of-thrones-death-prediction.git
+cd game-of-thrones-death-prediction```
 
 ### 2. Create virtual environment (optional but recommended)
 ```bash
