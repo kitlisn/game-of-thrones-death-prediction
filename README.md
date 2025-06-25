@@ -47,3 +47,44 @@ Various classification models were tested. AdaBoostClassifier showed the best ac
 | SVC  | 0.8365 |
 | DecisionTreeClassifier  | 0.8365 |
 
+Most important features: dateOfBirth, age_plus_date, book_4, boolDeadRelations, age.
+Accuracy on test data: 0.8175.
+
+## Data
+The dataset was provided as part of an educational course and is not included in this repository due to copyright restrictions.
+If you're taking DeepLearningSchool course (DLS), you will have access to the data through the course platform.
+
+
+## Possible Improvements
+- Add ROC curve 
+- Try cross-validation with GridSearchCV
+- Deploy as a simple web app using Streamlit or Flask
+
+## How to run?
+
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/game-of-thrones-death-prediction.git
+cd game-of-thrones-death-prediction
+
+### 2. Create virtual environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate   #on Linux/Mac
+venv\Scripts\activate      #on Windows
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+
+### 4. Run Jupyter Notebook
+```bash
+jupyter notebook notebooks/game_of_thrones_prediction.ipynb
+
+
+
+
+
+
+
