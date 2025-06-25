@@ -66,21 +66,25 @@ If you're taking DeepLearningSchool course (DLS), you will have access to the da
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/kitlisn/game-of-thrones-death-prediction.git
-cd game-of-thrones-death-prediction ```
+cd game-of-thrones-death-prediction
+```
 
 ### 2. Create virtual environment (optional but recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate   #on Linux/Mac
 venv\Scripts\activate      #on Windows
+```
 
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run Jupyter Notebook
 ```bash
 jupyter notebook notebooks/game_of_thrones_prediction.ipynb
+```
 
 
 
